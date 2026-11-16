@@ -1,5 +1,7 @@
 # 01. Seqtk downsampling
 
+For read counts, length and base quality metrics, see [SeqKit statistics](seqkit_stats.md).
+
 This step downsamples Illumina paired-end, Oxford Nanopore (ONT), and PacBio HiFi FASTQ files to a sample-specific target number of bases. Each input and output path below uses `XXX` as a placeholder. Run the commands from the repository root.
 
 ## Project records
