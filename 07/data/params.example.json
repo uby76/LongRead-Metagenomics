@@ -1,0 +1,8 @@
+{
+  "manifest": "07/data/manifest.example.json",
+  "card": "XXX/card.json",
+  "runner": "07/scripts/validate.py",
+  "result": "XXX/card_rgi_results",
+  "work": "XXX/card_rgi_work",
+  "image": "quay.io/biocontainers/rgi@sha256:164f4a58042146d144af35bc92589b47e095e40b4588836363e4b6025ac014b4"
+}
