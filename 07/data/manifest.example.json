@@ -1,0 +1,254 @@
+[
+  {
+    "sample": "CNTL",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/CNTL/HiFi-only/contigs.fasta.gz",
+    "bytes": 17286801
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/CNTL/HiFi-polished/contigs.fasta.gz",
+    "bytes": 17288479
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/CNTL/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 16290037
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/CNTL/NGS-only/contigs.fasta.gz",
+    "bytes": 13656373
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/CNTL/ONT-only/contigs.fasta.gz",
+    "bytes": 17670850
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/CNTL/ONT-polished/contigs.fasta.gz",
+    "bytes": 17674493
+  },
+  {
+    "sample": "FF",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/FF/HiFi-only/contigs.fasta.gz",
+    "bytes": 516020845
+  },
+  {
+    "sample": "FF",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/FF/HiFi-polished/contigs.fasta.gz",
+    "bytes": 516328737
+  },
+  {
+    "sample": "FF",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/FF/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 1606031389
+  },
+  {
+    "sample": "FF",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/FF/NGS-only/contigs.fasta.gz",
+    "bytes": 898804238
+  },
+  {
+    "sample": "FF",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/FF/ONT-only/contigs.fasta.gz",
+    "bytes": 502391866
+  },
+  {
+    "sample": "FF",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/FF/ONT-polished/contigs.fasta.gz",
+    "bytes": 502731443
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/FFPS/HiFi-only/contigs.fasta.gz",
+    "bytes": 573718474
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/FFPS/HiFi-polished/contigs.fasta.gz",
+    "bytes": 574013520
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/FFPS/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 1297395656
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/FFPS/NGS-only/contigs.fasta.gz",
+    "bytes": 739034322
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/FFPS/ONT-only/contigs.fasta.gz",
+    "bytes": 445182014
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/FFPS/ONT-polished/contigs.fasta.gz",
+    "bytes": 445472255
+  },
+  {
+    "sample": "KB",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/KB/HiFi-only/contigs.fasta.gz",
+    "bytes": 484958748
+  },
+  {
+    "sample": "KB",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/KB/HiFi-polished/contigs.fasta.gz",
+    "bytes": 485236390
+  },
+  {
+    "sample": "KB",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/KB/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 1309989414
+  },
+  {
+    "sample": "KB",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/KB/NGS-only/contigs.fasta.gz",
+    "bytes": 738240778
+  },
+  {
+    "sample": "KB",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/KB/ONT-only/contigs.fasta.gz",
+    "bytes": 437191862
+  },
+  {
+    "sample": "KB",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/KB/ONT-polished/contigs.fasta.gz",
+    "bytes": 437474005
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/KBPS/HiFi-only/contigs.fasta.gz",
+    "bytes": 783940967
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/KBPS/HiFi-polished/contigs.fasta.gz",
+    "bytes": 784334026
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/KBPS/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 1439763433
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/KBPS/NGS-only/contigs.fasta.gz",
+    "bytes": 883275394
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/KBPS/ONT-only/contigs.fasta.gz",
+    "bytes": 643087156
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/KBPS/ONT-polished/contigs.fasta.gz",
+    "bytes": 643475164
+  },
+  {
+    "sample": "YGC",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/YGC/HiFi-only/contigs.fasta.gz",
+    "bytes": 374588654
+  },
+  {
+    "sample": "YGC",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/YGC/HiFi-polished/contigs.fasta.gz",
+    "bytes": 374808749
+  },
+  {
+    "sample": "YGC",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/YGC/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 988706574
+  },
+  {
+    "sample": "YGC",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/YGC/NGS-only/contigs.fasta.gz",
+    "bytes": 572625509
+  },
+  {
+    "sample": "YGC",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/YGC/ONT-only/contigs.fasta.gz",
+    "bytes": 304977205
+  },
+  {
+    "sample": "YGC",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/YGC/ONT-polished/contigs.fasta.gz",
+    "bytes": 305182122
+  },
+  {
+    "sample": "YML",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/YML/HiFi-only/contigs.fasta.gz",
+    "bytes": 332813854
+  },
+  {
+    "sample": "YML",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/YML/HiFi-polished/contigs.fasta.gz",
+    "bytes": 332969164
+  },
+  {
+    "sample": "YML",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/YML/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 666372742
+  },
+  {
+    "sample": "YML",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/YML/NGS-only/contigs.fasta.gz",
+    "bytes": 417808777
+  },
+  {
+    "sample": "YML",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/YML/ONT-only/contigs.fasta.gz",
+    "bytes": 289953950
+  },
+  {
+    "sample": "YML",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/YML/ONT-polished/contigs.fasta.gz",
+    "bytes": 290122330
+  }
+]
