@@ -1,0 +1,215 @@
+{
+  "database_version": "1.7",
+  "files": [
+    {
+      "name": "genomad_db",
+      "bytes": 1396775922,
+      "md5Hash": "uc4X+LASA8N6kUe1KU2s5g==",
+      "crc32c": "YR0wSQ=="
+    },
+    {
+      "name": "genomad_db.dbtype",
+      "bytes": 4,
+      "md5Hash": "8t0N7bLCYEGezkqeA7LoKA==",
+      "crc32c": "9wBoRg=="
+    },
+    {
+      "name": "genomad_db.index",
+      "bytes": 4984038,
+      "md5Hash": "VpOrfV/ix5R6mkOptXBfVQ==",
+      "crc32c": "ZJHiuQ=="
+    },
+    {
+      "name": "genomad_db.lookup",
+      "bytes": 6042109,
+      "md5Hash": "lzyENODPcFk68fiIxEJIdg==",
+      "crc32c": "7QpCWA=="
+    },
+    {
+      "name": "genomad_db.source",
+      "bytes": 21,
+      "md5Hash": "aAWVjHyZqOirOAlaQNwAgQ==",
+      "crc32c": "iP/48A=="
+    },
+    {
+      "name": "genomad_db_h",
+      "bytes": 4330043,
+      "md5Hash": "EyXV2x2ggcR5pFWj50QK5A==",
+      "crc32c": "njOcVg=="
+    },
+    {
+      "name": "genomad_db_h.dbtype",
+      "bytes": 4,
+      "md5Hash": "dAurT57IgIrtto1rEoGusg==",
+      "crc32c": "xQEZ0g=="
+    },
+    {
+      "name": "genomad_db_h.index",
+      "bytes": 3932553,
+      "md5Hash": "jBTtjTtSC+TNIjQKJQ0mvw==",
+      "crc32c": "yiGoEA=="
+    },
+    {
+      "name": "genomad_db_mapping",
+      "bytes": 984583,
+      "md5Hash": "LhDbtm+ZGD/0IJJ3eoCJyg==",
+      "crc32c": "fSmavA=="
+    },
+    {
+      "name": "genomad_db_taxonomy",
+      "bytes": 2752871,
+      "md5Hash": "Wrz/I6su+l9dz8N8xVzLvA==",
+      "crc32c": "w7OfvA=="
+    },
+    {
+      "name": "genomad_integrase_db",
+      "bytes": 137616,
+      "md5Hash": "I+GfJx0tZSYViIIaHn0rMA==",
+      "crc32c": "luen7A=="
+    },
+    {
+      "name": "genomad_integrase_db.dbtype",
+      "bytes": 4,
+      "md5Hash": "8t0N7bLCYEGezkqeA7LoKA==",
+      "crc32c": "9wBoRg=="
+    },
+    {
+      "name": "genomad_integrase_db.index",
+      "bytes": 220,
+      "md5Hash": "e655eng9PxLHWEUTDMubig==",
+      "crc32c": "PZ1yhw=="
+    },
+    {
+      "name": "genomad_integrase_db.lookup",
+      "bytes": 238,
+      "md5Hash": "zAcC/K+5oLJ5kv1U/GmdJQ==",
+      "crc32c": "hvttbQ=="
+    },
+    {
+      "name": "genomad_integrase_db.source",
+      "bytes": 24,
+      "md5Hash": "tv85H2Ci2dYVx+tB+/AcGQ==",
+      "crc32c": "jqbO+Q=="
+    },
+    {
+      "name": "genomad_integrase_db_h",
+      "bytes": 184,
+      "md5Hash": "EY5Zwbe7vfpndsF9o9tDCw==",
+      "crc32c": "FGH9Ig=="
+    },
+    {
+      "name": "genomad_integrase_db_h.dbtype",
+      "bytes": 4,
+      "md5Hash": "dAurT57IgIrtto1rEoGusg==",
+      "crc32c": "xQEZ0g=="
+    },
+    {
+      "name": "genomad_integrase_db_h.index",
+      "bytes": 135,
+      "md5Hash": "LomHVo2uGj9MAgdlf9hCBQ==",
+      "crc32c": "PbqL9Q=="
+    },
+    {
+      "name": "genomad_marker_metadata.tsv",
+      "bytes": 45157629,
+      "md5Hash": "/PZM2/zQ4Jm0QUP/mRM/7Q==",
+      "crc32c": "m3bztQ=="
+    },
+    {
+      "name": "genomad_mini_db",
+      "bytes": 10,
+      "md5Hash": "EBFGGi+JfPbkhb6akkBhug==",
+      "crc32c": "SIfCww=="
+    },
+    {
+      "name": "genomad_mini_db.dbtype",
+      "bytes": 4,
+      "md5Hash": "8t0N7bLCYEGezkqeA7LoKA==",
+      "crc32c": "9wBoRg=="
+    },
+    {
+      "name": "genomad_mini_db.index",
+      "bytes": 925297,
+      "md5Hash": "5i495RDqf15zA49RqwIzDw==",
+      "crc32c": "V3pW3A=="
+    },
+    {
+      "name": "genomad_mini_db.lookup",
+      "bytes": 17,
+      "md5Hash": "RF5OFEXo5br/zlfj/1O33w==",
+      "crc32c": "NF+Lyw=="
+    },
+    {
+      "name": "genomad_mini_db.source",
+      "bytes": 17,
+      "md5Hash": "1q7HpdycoUMFw7OYp9zleg==",
+      "crc32c": "LEwM7A=="
+    },
+    {
+      "name": "genomad_mini_db_h",
+      "bytes": 12,
+      "md5Hash": "tffMCfBx7rqSN4cM733y/w==",
+      "crc32c": "L1AL1w=="
+    },
+    {
+      "name": "genomad_mini_db_h.dbtype",
+      "bytes": 19,
+      "md5Hash": "nDoGh2sJrWT8gdb0WBDTkA==",
+      "crc32c": "zIeUaw=="
+    },
+    {
+      "name": "genomad_mini_db_h.index",
+      "bytes": 18,
+      "md5Hash": "J6ATHU3ChT/Og67TFfnLxw==",
+      "crc32c": "7Jy/gQ=="
+    },
+    {
+      "name": "genomad_mini_db_mapping",
+      "bytes": 18,
+      "md5Hash": "H8OiYJou9++07WmAq3p5GA==",
+      "crc32c": "hHW0TQ=="
+    },
+    {
+      "name": "genomad_mini_db_taxonomy",
+      "bytes": 19,
+      "md5Hash": "4ZG4bPcWNUpo1NKk+ZcaGQ==",
+      "crc32c": "rtQt+Q=="
+    },
+    {
+      "name": "mini_set_ids",
+      "bytes": 274300,
+      "md5Hash": "nMZezwi7opzXXkNrGPSeSw==",
+      "crc32c": "rBvxBA=="
+    },
+    {
+      "name": "names.dmp",
+      "bytes": 689784,
+      "md5Hash": "g/h53wamm/Fmh7XeV17Vug==",
+      "crc32c": "c2BI3w=="
+    },
+    {
+      "name": "nodes.dmp",
+      "bytes": 870066,
+      "md5Hash": "7k22fNz3Wlu6ahe4PldCXQ==",
+      "crc32c": "boZNww=="
+    },
+    {
+      "name": "plasmid_hallmark_annotation.txt",
+      "bytes": 1972,
+      "md5Hash": "tMJWjmWxuNybb05Qa4rUAg==",
+      "crc32c": "C9w6Yg=="
+    },
+    {
+      "name": "version.txt",
+      "bytes": 4,
+      "md5Hash": "VanyqjL71EpG87GQ76kTEg==",
+      "crc32c": "8gaE8Q=="
+    },
+    {
+      "name": "virus_hallmark_annotation.txt",
+      "bytes": 12907,
+      "md5Hash": "NR4Q6Fk6+mnYgbegEoiH6Q==",
+      "crc32c": "Q//dRg=="
+    }
+  ]
+}
