@@ -1,0 +1,296 @@
+[
+  {
+    "sample": "CNTL",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/CNTL/HiFi-only/contigs.fasta.gz",
+    "bytes": 17286801,
+    "md5Hash": "HA5M1gaM7BE8YZOqCjfVrA=="
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/CNTL/HiFi-polished/contigs.fasta.gz",
+    "bytes": 17288479,
+    "md5Hash": "20oxg+ApoDha8BBvpwdF+Q=="
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/CNTL/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 16290037,
+    "md5Hash": "E1zoIl+ELFFzIJsHbmFOQQ=="
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/CNTL/NGS-only/contigs.fasta.gz",
+    "bytes": 13656373,
+    "md5Hash": "/LS2LuMJe3h7eJJHtcK43w=="
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/CNTL/ONT-only/contigs.fasta.gz",
+    "bytes": 17670850,
+    "md5Hash": "72jXbwOytGLRbGLPivXl2Q=="
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/CNTL/ONT-polished/contigs.fasta.gz",
+    "bytes": 17674493,
+    "md5Hash": "IFUYCGjcR9pHxOkfJ//Z1A=="
+  },
+  {
+    "sample": "FF",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/FF/HiFi-only/contigs.fasta.gz",
+    "bytes": 516020845,
+    "md5Hash": "j21eiRKsFbjfOHPdtARjDg=="
+  },
+  {
+    "sample": "FF",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/FF/HiFi-polished/contigs.fasta.gz",
+    "bytes": 516328737,
+    "md5Hash": "AVC1TXCe8AnHPDcCsk5s5Q=="
+  },
+  {
+    "sample": "FF",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/FF/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 1606031389,
+    "md5Hash": "4oR5zQBxjuC5+tv/xHnGxQ=="
+  },
+  {
+    "sample": "FF",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/FF/NGS-only/contigs.fasta.gz",
+    "bytes": 898804238,
+    "md5Hash": "FaFlTf3u2EL+cKtkfWRErA=="
+  },
+  {
+    "sample": "FF",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/FF/ONT-only/contigs.fasta.gz",
+    "bytes": 502391866,
+    "md5Hash": "AG53xzOQFnxeJ/VjvtlqMQ=="
+  },
+  {
+    "sample": "FF",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/FF/ONT-polished/contigs.fasta.gz",
+    "bytes": 502731443,
+    "md5Hash": "2AVefDjFBiHJRaWSbA1NaQ=="
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/FFPS/HiFi-only/contigs.fasta.gz",
+    "bytes": 573718474,
+    "md5Hash": "ZBE00GHTY83KnYGBVKe9GA=="
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/FFPS/HiFi-polished/contigs.fasta.gz",
+    "bytes": 574013520,
+    "md5Hash": "c0KhNUta4ijFCNpB9IL6vw=="
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/FFPS/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 1297395656,
+    "md5Hash": "ugUc4UVpXbcG34zbjFbN6A=="
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/FFPS/NGS-only/contigs.fasta.gz",
+    "bytes": 739034322,
+    "md5Hash": "YwSEVcLVBuNWtrrvkUd28w=="
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/FFPS/ONT-only/contigs.fasta.gz",
+    "bytes": 445182014,
+    "md5Hash": "L57rk7gE3Gg2PAJyrxZi8Q=="
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/FFPS/ONT-polished/contigs.fasta.gz",
+    "bytes": 445472255,
+    "md5Hash": "IbH91/e8YrG9hw5WVGVfbg=="
+  },
+  {
+    "sample": "KB",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/KB/HiFi-only/contigs.fasta.gz",
+    "bytes": 484958748,
+    "md5Hash": "ShTSSgJSNvsiBogYsKKV5A=="
+  },
+  {
+    "sample": "KB",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/KB/HiFi-polished/contigs.fasta.gz",
+    "bytes": 485236390,
+    "md5Hash": "Nec0tcNhYxm+kwt19BqO0w=="
+  },
+  {
+    "sample": "KB",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/KB/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 1309989414,
+    "md5Hash": "fjjvr5+b+Y92Br9WleZTPA=="
+  },
+  {
+    "sample": "KB",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/KB/NGS-only/contigs.fasta.gz",
+    "bytes": 738240778,
+    "md5Hash": "6+edzX2qoo1TMQu0Tvu8Sg=="
+  },
+  {
+    "sample": "KB",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/KB/ONT-only/contigs.fasta.gz",
+    "bytes": 437191862,
+    "md5Hash": "WkiGLKaRzArytvHgUTePpA=="
+  },
+  {
+    "sample": "KB",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/KB/ONT-polished/contigs.fasta.gz",
+    "bytes": 437474005,
+    "md5Hash": "RsNMG9zjw1XMUCBCntpGuQ=="
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/KBPS/HiFi-only/contigs.fasta.gz",
+    "bytes": 783940967,
+    "md5Hash": "WpY61aRCpRLZtWyqIlaXfw=="
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/KBPS/HiFi-polished/contigs.fasta.gz",
+    "bytes": 784334026,
+    "md5Hash": "LHUlU+9Fdm9iGhsclqoozQ=="
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/KBPS/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 1439763433,
+    "md5Hash": "uj62FYNWl0k3B3PTobuOkA=="
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/KBPS/NGS-only/contigs.fasta.gz",
+    "bytes": 883275394,
+    "md5Hash": "GiJSLB6NukAM3AvXjCrgFA=="
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/KBPS/ONT-only/contigs.fasta.gz",
+    "bytes": 643087156,
+    "md5Hash": "ecix+Giu/914b7dVuggWcg=="
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/KBPS/ONT-polished/contigs.fasta.gz",
+    "bytes": 643475164,
+    "md5Hash": "VpuBxjEz5njriU+N0Yv8SQ=="
+  },
+  {
+    "sample": "YGC",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/YGC/HiFi-only/contigs.fasta.gz",
+    "bytes": 374588654,
+    "md5Hash": "AxLYL87eBfJUMGjA3kq68w=="
+  },
+  {
+    "sample": "YGC",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/YGC/HiFi-polished/contigs.fasta.gz",
+    "bytes": 374808749,
+    "md5Hash": "oaBU6rRKOud8s5Zx95fbIg=="
+  },
+  {
+    "sample": "YGC",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/YGC/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 988706574,
+    "md5Hash": "R3IhpGOtQxoqilV21yLrNA=="
+  },
+  {
+    "sample": "YGC",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/YGC/NGS-only/contigs.fasta.gz",
+    "bytes": 572625509,
+    "md5Hash": "slZFmmOhzFlD7M+VUcb9iA=="
+  },
+  {
+    "sample": "YGC",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/YGC/ONT-only/contigs.fasta.gz",
+    "bytes": 304977205,
+    "md5Hash": "w8eG8YaabAyv8AtBbYudTQ=="
+  },
+  {
+    "sample": "YGC",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/YGC/ONT-polished/contigs.fasta.gz",
+    "bytes": 305182122,
+    "md5Hash": "x+Nn9ssqSBfmlXNwcUd9zA=="
+  },
+  {
+    "sample": "YML",
+    "strategy": "HiFi-only",
+    "uri": "XXX/contigs/YML/HiFi-only/contigs.fasta.gz",
+    "bytes": 332813854,
+    "md5Hash": "OWbnd9FrKavrqockJzkXTg=="
+  },
+  {
+    "sample": "YML",
+    "strategy": "HiFi-polished",
+    "uri": "XXX/contigs/YML/HiFi-polished/contigs.fasta.gz",
+    "bytes": 332969164,
+    "md5Hash": "nL4NBF6/qjtPSoSnCYBD0A=="
+  },
+  {
+    "sample": "YML",
+    "strategy": "NGS-ONT-hybrid",
+    "uri": "XXX/contigs/YML/NGS-ONT-hybrid/contigs.fasta.gz",
+    "bytes": 666372742,
+    "md5Hash": "PUSA2oLbj7cY3lxTrKZ9Xg=="
+  },
+  {
+    "sample": "YML",
+    "strategy": "NGS-only",
+    "uri": "XXX/contigs/YML/NGS-only/contigs.fasta.gz",
+    "bytes": 417808777,
+    "md5Hash": "JRsjn33JkBev3ZUBRAX0YA=="
+  },
+  {
+    "sample": "YML",
+    "strategy": "ONT-only",
+    "uri": "XXX/contigs/YML/ONT-only/contigs.fasta.gz",
+    "bytes": 289953950,
+    "md5Hash": "Nsgb6r4E2YcFNuI7Cjf0wQ=="
+  },
+  {
+    "sample": "YML",
+    "strategy": "ONT-polished",
+    "uri": "XXX/contigs/YML/ONT-polished/contigs.fasta.gz",
+    "bytes": 290122330,
+    "md5Hash": "wnhCkzSroLd2oua/afp7XQ=="
+  }
+]
