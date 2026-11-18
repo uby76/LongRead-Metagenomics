@@ -1,0 +1,8 @@
+{
+  "manifest": "08virusfilter/data/manifest.json",
+  "helper": "08virusfilter/scripts/filter.py",
+  "database": "XXX/checkv-db-v1.5",
+  "groups": "XXX/geNomad_results/groups",
+  "result": "XXX/virusfilter_results",
+  "image": "quay.io/biocontainers/checkv@sha256:e71b0ab781af9a1093fcf160beee587cc96aa50ff7c1a2b078166201fa390725"
+}

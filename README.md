@@ -7,3 +7,4 @@
 - [06 — MAG quality assessment and RNA annotation](06/README.md)
 - [07 — CARD/RGI annotation of assembled contigs](07/README.md)
 - [08 — geNomad annotation of assembled contigs](08/README.md)
+- [08virusfilter — Virus selection and CheckV assessment](08virusfilter/README.md)

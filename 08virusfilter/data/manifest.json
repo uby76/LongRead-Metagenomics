@@ -1,0 +1,212 @@
+[
+  {
+    "sample": "CNTL",
+    "strategy": "HiFi-only",
+    "expected": 28
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "HiFi-polished",
+    "expected": 28
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "NGS-ONT-hybrid",
+    "expected": 29
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "NGS-only",
+    "expected": 26
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "ONT-only",
+    "expected": 34
+  },
+  {
+    "sample": "CNTL",
+    "strategy": "ONT-polished",
+    "expected": 34
+  },
+  {
+    "sample": "FF",
+    "strategy": "HiFi-only",
+    "expected": 1658
+  },
+  {
+    "sample": "FF",
+    "strategy": "HiFi-polished",
+    "expected": 1662
+  },
+  {
+    "sample": "FF",
+    "strategy": "NGS-ONT-hybrid",
+    "expected": 586
+  },
+  {
+    "sample": "FF",
+    "strategy": "NGS-only",
+    "expected": 237
+  },
+  {
+    "sample": "FF",
+    "strategy": "ONT-only",
+    "expected": 1530
+  },
+  {
+    "sample": "FF",
+    "strategy": "ONT-polished",
+    "expected": 1531
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "HiFi-only",
+    "expected": 1291
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "HiFi-polished",
+    "expected": 1299
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "NGS-ONT-hybrid",
+    "expected": 801
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "NGS-only",
+    "expected": 353
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "ONT-only",
+    "expected": 1003
+  },
+  {
+    "sample": "FFPS",
+    "strategy": "ONT-polished",
+    "expected": 1021
+  },
+  {
+    "sample": "KB",
+    "strategy": "HiFi-only",
+    "expected": 1235
+  },
+  {
+    "sample": "KB",
+    "strategy": "HiFi-polished",
+    "expected": 1237
+  },
+  {
+    "sample": "KB",
+    "strategy": "NGS-ONT-hybrid",
+    "expected": 437
+  },
+  {
+    "sample": "KB",
+    "strategy": "NGS-only",
+    "expected": 116
+  },
+  {
+    "sample": "KB",
+    "strategy": "ONT-only",
+    "expected": 1040
+  },
+  {
+    "sample": "KB",
+    "strategy": "ONT-polished",
+    "expected": 1058
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "HiFi-only",
+    "expected": 1596
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "HiFi-polished",
+    "expected": 1600
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "NGS-ONT-hybrid",
+    "expected": 892
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "NGS-only",
+    "expected": 242
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "ONT-only",
+    "expected": 1312
+  },
+  {
+    "sample": "KBPS",
+    "strategy": "ONT-polished",
+    "expected": 1333
+  },
+  {
+    "sample": "YGC",
+    "strategy": "HiFi-only",
+    "expected": 1119
+  },
+  {
+    "sample": "YGC",
+    "strategy": "HiFi-polished",
+    "expected": 1119
+  },
+  {
+    "sample": "YGC",
+    "strategy": "NGS-ONT-hybrid",
+    "expected": 587
+  },
+  {
+    "sample": "YGC",
+    "strategy": "NGS-only",
+    "expected": 230
+  },
+  {
+    "sample": "YGC",
+    "strategy": "ONT-only",
+    "expected": 830
+  },
+  {
+    "sample": "YGC",
+    "strategy": "ONT-polished",
+    "expected": 835
+  },
+  {
+    "sample": "YML",
+    "strategy": "HiFi-only",
+    "expected": 1365
+  },
+  {
+    "sample": "YML",
+    "strategy": "HiFi-polished",
+    "expected": 1364
+  },
+  {
+    "sample": "YML",
+    "strategy": "NGS-ONT-hybrid",
+    "expected": 728
+  },
+  {
+    "sample": "YML",
+    "strategy": "NGS-only",
+    "expected": 336
+  },
+  {
+    "sample": "YML",
+    "strategy": "ONT-only",
+    "expected": 1287
+  },
+  {
+    "sample": "YML",
+    "strategy": "ONT-polished",
+    "expected": 1291
+  }
+]
