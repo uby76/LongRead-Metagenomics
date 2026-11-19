@@ -12,6 +12,7 @@ p = argparse.ArgumentParser()
 p.add_argument("snapshot", type=Path)
 p.add_argument("output", type=Path)
 p.add_argument("--threads", type=int, default=8)
+p.add_argument("--staged", type=Path, help="Numbered FASTA staging directory in manifest order")
 args = p.parse_args()
 
 
@@ -25,7 +26,7 @@ if len(groups) != 42 or len({(g["sample"],g["strategy"]) for g in groups}) != 42
     raise SystemExit("All 42 distinct published groups are required.")
 if args.output.exists():
     raise SystemExit("Choose a new output directory.")
-for tool in ("blastn","makeblastdb","gcloud","sort"):
+for tool in (["blastn","makeblastdb","sort"] + ([] if args.staged else ["gcloud"])):
     if not shutil.which(tool):
         raise SystemExit("Missing executable: "+tool)
 metadata = read("sequence_metadata.tsv")
@@ -42,9 +43,12 @@ with tempfile.TemporaryDirectory() as tmp:
     pooled = work / "pooled.fna"
     seen = {}
     with pooled.open("w") as dst:
-        for g in groups:
+        for index, g in enumerate(groups, 1):
             source = work / "group.fna"
-            subprocess.run(["gcloud","storage","cp",g["selected_fasta"],str(source)],check=True)
+            if args.staged:
+                source = args.staged / f"group{index:04d}" / "selected.fna"
+            else:
+                subprocess.run(["gcloud","storage","cp",g["selected_fasta"],str(source)],check=True)
             with source.open() as src:
                 for line in src:
                     if line.startswith(">"):
@@ -56,7 +60,8 @@ with tempfile.TemporaryDirectory() as tmp:
                     else:
                         seen[tag] += len(line.strip())
                         dst.write(line.strip()+"\n")
-            source.unlink()
+            if not args.staged:
+                source.unlink()
     if seen != lengths:
         raise ValueError("Pooled FASTA differs from the audited IDs or lengths.")
     db = str(work/"db")
@@ -106,3 +111,17 @@ with tempfile.TemporaryDirectory() as tmp:
                 retain=reps[tag]==tag
             if retain:
                 out.write(line)
+
+    with (args.output/"genomad_taxonomy.tsv").open("w",newline="") as out:
+        writer = csv.writer(out,delimiter="\t",lineterminator="\n")
+        writer.writerow(["vOTU","representative_genomad_taxonomy","member_count","distinct_member_lineages"])
+        from collections import Counter
+        sizes = Counter(reps.values())
+        lineages = defaultdict(set)
+        for row in metadata:
+            tag,_ = records[row["sample"],row["strategy"],row["virus_id"]]
+            lineages[reps[tag]].add(row["genomad_taxonomy"])
+        for row in metadata:
+            tag,_ = records[row["sample"],row["strategy"],row["virus_id"]]
+            if reps[tag] == tag:
+                writer.writerow([tag,row["genomad_taxonomy"],sizes[tag],len(lineages[tag])])
