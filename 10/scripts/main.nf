@@ -1,4 +1,5 @@
 nextflow.enable.dsl=2
+params.prepared = null
 
 process PREPARE {
     tag "${sample}/${strategy}"
@@ -48,7 +49,7 @@ PYTHON
 process BIN {
     tag "${method}/${sample}/${strategy}"
     cpus 16
-    machineType { count.toInteger() > 250000 ? 'n2-highmem-32' : 'n2-highmem-16' }
+    machineType { method == 'SemiBin2' && strategy == 'NGS-only' && count.toInteger() > 250000 ? 'n2-highmem-96' : count.toInteger() > 250000 ? 'n2-highmem-32' : 'n2-highmem-16' }
     disk '400 GB'
     maxForks 6
     time '168h'
@@ -72,6 +73,25 @@ process BIN {
     """
     set -euo pipefail
     export OMP_NUM_THREADS=${task.cpus} OPENBLAS_NUM_THREADS=1
+    if [ '${method}' = 'COMEBin' ]; then
+        mkdir compat
+        cat > compat/realpath <<'PYTHON'
+#!/usr/bin/env python3
+import argparse
+import os
+parser = argparse.ArgumentParser()
+parser.add_argument('-e', action='store_true')
+parser.add_argument('-m', action='store_true')
+parser.add_argument('paths', nargs='+')
+args = parser.parse_args()
+for path in args.paths:
+    if args.e and not os.path.exists(path):
+        raise SystemExit(1)
+    print(os.path.realpath(path))
+PYTHON
+        chmod +x compat/realpath
+        export PATH="\$PWD/compat:\$PATH"
+    fi
     ${command}
     python "${exporter}" "${sample}" "${strategy}" "${method}" contigs.fa "${bins}"
     """
@@ -81,7 +101,12 @@ workflow {
     def inputs = rows.map { r -> tuple(r.sample, r.strategy, r.contigs, r.sha256, file(r.fasta), file(r.archive)) }
     def expected = rows.count().map { it * 2 }
     PREPARE(inputs)
-    BIN(PREPARE.out.combine(Channel.of('COMEBin','SemiBin2')), file(params.exporter, checkIfExists:true))
+    def fresh = PREPARE.out.combine(Channel.of('COMEBin','SemiBin2'))
+    def reused = params.prepared ? Channel.fromPath(params.prepared, checkIfExists:true).splitCsv(header:true, sep:'\t').map { r ->
+        tuple(r.sample, r.strategy, r.contigs, file(r.prefix+'/contigs.fa'), file(r.prefix+'/reads.bam'), file(r.prefix+'/reads.bam.bai'), r.method)
+    } : Channel.empty()
+    expected = expected.combine(reused.count()).map { a,b -> a+b }
+    BIN(fresh.mix(reused), file(params.exporter, checkIfExists:true))
     BIN.out.summaries.count().combine(expected).subscribe { done, total ->
         if (done != total || !total) error("Completed ${done} of ${total} binning analyses")
     }
