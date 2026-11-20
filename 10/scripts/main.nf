@@ -17,7 +17,24 @@ process PREPARE {
     set -euo pipefail
     echo '$digest  $fasta' | sha256sum -c -
     gzip -dc '$fasta' > contigs.fa
-    tar -xzOf '$archive' --wildcards '*/coverage_output/work_files/*.bam' > reads.bam
+    python3 - '$archive' <<'PYTHON'
+import shutil
+import sys
+import tarfile
+from pathlib import PurePosixPath
+
+found = False
+with tarfile.open(sys.argv[1], 'r|gz', bufsize=1024 * 1024) as archive:
+    for entry in archive:
+        if entry.isfile() and PurePosixPath(entry.name).match('coverage_output/work_files/*.bam'):
+            if found:
+                raise ValueError('Multiple archived BAMs')
+            with open('reads.bam', 'wb') as output:
+                shutil.copyfileobj(archive.extractfile(entry), output, 1024 * 1024)
+            found = True
+if not found:
+    raise ValueError('Missing archived BAM')
+PYTHON
     samtools quickcheck -v reads.bam
     samtools faidx contigs.fa
     samtools view -H reads.bam | awk -F '\\t' '\$1=="@SQ"{for(i=2;i<=NF;i++){if(\$i~/^SN:/)n=substr(\$i,4);if(\$i~/^LN:/)l=substr(\$i,4)}print n "\\t" l}' > bam.refs
